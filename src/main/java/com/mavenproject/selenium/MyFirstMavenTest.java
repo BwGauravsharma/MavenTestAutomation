@@ -21,6 +21,8 @@ public class MyFirstMavenTest {
 		assertEquals("Bitwise", driver.getTitle());
 		
 		driver.close();
+		
+		
 	}
 
 }
