@@ -39,6 +39,21 @@ public class MyFirstMavenTest {
 		
 		
 	}
+	
+	@Test
+	public void StartWebDriver3(){
+		
+		WebDriver driver = new FirefoxDriver();
+		driver.get("http://www.bitwiseglobal.com");
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		
+		assertEquals("Bitwise", driver.getTitle());
+		
+		driver.close();
+		
+		
+	}
 
 
 }
