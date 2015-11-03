@@ -41,7 +41,7 @@ public class MyFirstMavenTest {
 	}
 	
 	@Test
-	public void StartWebDriver3(){
+	public void StartWebDriver4(){
 		
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.bitwiseglobal.com");
