@@ -18,6 +18,7 @@ public class MyFirstMavenTest {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		
+		
 		assertEquals("Bitwise", driver.getTitle());
 		assertEquals("Bitwise", driver.getTitle());
 		driver.close();
